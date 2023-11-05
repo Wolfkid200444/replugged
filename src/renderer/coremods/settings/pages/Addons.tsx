@@ -547,7 +547,7 @@ export const Addons = (type: AddonType): React.ReactElement => {
   return (
     <>
       <Flex justify={Flex.Justify.BETWEEN} align={Flex.Align.START}>
-        <Flex align={Flex.Align.CENTER} className={BreadcrumbClasses.breadcrumbs}>
+        <Flex align={Flex.Align.CENTER} className={BreadcrumbClasses?.breadcrumbs}>
           {section === `rp_${type}` ? (
             <Text.H2
               style={{
